@@ -1,5 +1,5 @@
-let temperaturaM=50;
-let temperaturam=50;
+let temperaturaMaxima=5489561;
+let temperaturaminima=5014;
 
 
 function calcularLuna(temM,temm){
@@ -9,7 +9,9 @@ function calcularLuna(temM,temm){
     return(media);
 }
 
-console.log(calcularLuna(temperaturaM,temperaturam));
+console.log(calcularLuna(temperaturaMaxima,temperaturaminima));
 
-let calcularLuna2=(temM,temm)=>((temM+temm)/2);
-console.log(calcularLuna2(50,50)) ;
+let calcularLuna2=(temM,temm)=>((temM+temm)/2); let temperaturaMedia= calcularLuna2(temperaturaMaxima,temperaturaminima); console.log(`La temperatura de la luna es de ${temperaturaMedia}`);
+
+
+
