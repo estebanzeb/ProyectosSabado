@@ -16,3 +16,7 @@ arregloSeparador3 = PilotoNave3.split(separador, limite2);
 console.log(arregloSeparador1[1],arregloSeparador1[2]); 
 console.log(arregloSeparador2[1],arregloSeparador2[2]);
 console.log(arregloSeparador3[1]);
+
+
+let arregloSeparadorFlecha =(PilotoNave1,PilotoNave2,PilotoNave3)=>PilotoNave1.split(separador, limite1) = PilotoNave2.split(separador, limite1)= PilotoNave3.split(separador, limite1);
+console.log(arregloSeparador1[1],arregloSeparador1[2]); 
